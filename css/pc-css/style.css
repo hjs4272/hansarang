@@ -1,0 +1,58 @@
+/* common file */
+@import url(common-parts/card-slide-swiper.css);
+@import url(common-parts/display-none.css);
+@import url(common-parts/footer.css);
+@import url(common-parts/header-and-nav.css);
+@import url(common-parts/main-contents.css);
+@import url(common-parts/main-logo.css);
+@import url(common-parts/min-and-maxwidth.css);
+
+
+/* screens */
+@import url(screens/background-video.css);
+@import url(screens/introduction.css);
+
+
+
+
+/* 폰트링크 */
+@font-face {
+    font-family: 'WandohopeB';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeB.woff') format('woff');
+}
+@font-face {
+    font-family: 'Eulyoo1945-SemiBold';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Eulyoo1945-Regular';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-Regular.woff') format('woff');
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: #111;
+    font-family: 'Eulyoo1945-Regular';
+    /* overflow: hidden;
+    두번째 페이지부터는 hidden이 되면 안되므로 index.html코드에 직접 스타일 지정 */
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

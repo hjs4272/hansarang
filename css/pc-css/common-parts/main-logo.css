@@ -1,0 +1,23 @@
+.main-logo{
+    display: flex;
+    justify-content: center;
+    color: #efefef;
+}
+.main-logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    transition: .5s;
+}
+.main-logo a:hover{
+    transition: .5s;
+    transform: translateY(-10px);
+}
+.main-logo img{
+    width: 14%;
+}
+.main-logo span{
+    font-size: 38px;
+    font-family: 'WandohopeB';
+}

@@ -1,0 +1,29 @@
+
+.sideSlideShow{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: #efefef;
+}
+.sideSlideShow a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sideSlideShow img{
+    width: 15%;
+}
+.sideSlideShow span{
+    font-family: 'WandohopeB';
+    font-size: 24px;
+}
+
+
+.sideSlideShow i {
+    position: absolute;
+    left: 20px;
+    font-size: 24px;
+    color: #efefef;
+}
+
+

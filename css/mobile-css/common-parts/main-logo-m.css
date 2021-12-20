@@ -1,0 +1,22 @@
+
+/* .main-logo{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: #efefef;
+}
+.main-logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-logo img{
+    width: 21%;
+}
+.main-logo span{
+    font-family: 'WandohopeB';
+    font-size: 28px;
+} */
+.main-logo{
+    display: none;
+}

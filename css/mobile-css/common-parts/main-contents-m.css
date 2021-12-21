@@ -60,7 +60,7 @@
 
  /* 메인컨텐츠 텍스트박스 */
 .main-content__text{
-    margin: 15px 0 0 0;
+    /* margin: 15px 0 0 0; */
     padding: 15px;
     font-size: 16px;
     line-height: 25px;
@@ -71,7 +71,7 @@
 /* 텍스트박스 안 배경색 효과 */
 .main-content__text span{
     display: inline-block;
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Eulyoo1945-SemiBold';
     background-color: rgba(255, 255, 0, 0.5);
     margin: 10px 0;
@@ -81,12 +81,12 @@
     font-size: 13px;
     margin: 2px 0;
 }
-/* .main-content__text .spanMargin0{
+.main-content__text .spanMargin0{
     margin: 0 3px;
-} */
-/* .main-content__text .margin--0{
+}
+.main-content__text .margin--0{
     margin: 0 0 5px 0;
-} */
+}
 
 
 
@@ -123,16 +123,17 @@
 
 
    /* 페이지 안에서 이동 */
-   /* .main-pageMove--coral{
+   .main-pageMove--coral{
     display: flex;
     justify-content: center;
-    position: absolute;
-    top: 465px;
-    font-size: 18px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    text-align: center;
 }
 .main-pageMove--coral p{
-    margin-left: 30px;
-    padding: 10px 0;
+    padding: 10px;
+    border: 1px solid #efefef;
+    min-width: 155px;
 }
 .main-pageMove--coral p:hover{
     background-color: #FF7263;
@@ -148,4 +149,4 @@
     background-color: #2c2c2cd7;
     color: #fff;
     transition: 0.5s;
-} */
+}

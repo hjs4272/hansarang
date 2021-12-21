@@ -1,6 +1,7 @@
 /* common file */
 @import url(common-parts/main-logo-m.css);
-@import url(common-parts/sideSlide-show-logo-m.css);
+@import url(common-parts/mobile-main-logo-m.css);
+@import url(common-parts/mobile-side-show-menu.css);
 @import url(common-parts/header-and-nav-m.css);
 @import url(common-parts/main-contents-m.css);
 @import url(common-parts/footer-m.css);
@@ -31,7 +32,7 @@
 body{
     color: #111;
     font-family: 'Eulyoo1945-Regular';
-    
+    height: 100%;
 }
 
 

@@ -1,0 +1,29 @@
+
+.mobile-main-logo{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: #efefef;
+}
+.mobile-main-logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-main-logo img{
+    width: 12%;
+}
+.mobile-main-logo span{
+    font-family: 'WandohopeB';
+    font-size: 24px;
+}
+
+
+.mobile-main-logo i {
+    position: absolute;
+    left: 20px;
+    font-size: 22px;
+    color: #efefef;
+}
+
+

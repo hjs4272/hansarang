@@ -1,12 +1,16 @@
+/* common file */
 @import url(common-parts/main-logo-m.css);
 @import url(common-parts/sideSlide-show-logo-m.css);
 @import url(common-parts/header-and-nav-m.css);
+@import url(common-parts/main-contents-m.css);
+@import url(common-parts/footer-m.css);
 
 
 
 
-
+/* screens */
 @import url(screens/background-video-m.css);
+@import url(screens/introduction-m.css);
 
 
 /* 폰트링크 */
@@ -27,11 +31,17 @@
 body{
     color: #111;
     font-family: 'Eulyoo1945-Regular';
-    /* overflow: hidden;
-    두번째 페이지부터는 hidden이 되면 안되므로 index.html코드에 직접 스타일 지정 */
+    height: 100vh;
 }
 
 
+/* pc버젼에선 나와야하나 모바일에서 지워야할것들 */
+.Swiper-wrap{
+    display: none;
+}
+nav{
+    display: none;
+}
 
 
 

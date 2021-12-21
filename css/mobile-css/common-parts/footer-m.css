@@ -1,0 +1,26 @@
+footer{
+    padding: 20px 10px;
+    font-size: 14px;
+    color: #efefefde;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    text-align: center;
+}
+footer div {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+footer div p{
+    margin-bottom: 5px;
+}
+footer div span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #efefefde;
+    width: 90px;
+    height: 25px;
+}
+

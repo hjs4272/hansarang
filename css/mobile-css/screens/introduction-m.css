@@ -1,13 +1,10 @@
 /* 메인컨텐츠 오시는길 */
 .main-content__address{
-    width: 35%;
-    /* width: 55%; */
-    min-width: 665px;
     font-size: 18px;
     line-height: 30px;
     display: flex;
-    flex-direction: column;
     padding: 15px;
+    flex-direction: column;
     background-color: #efefef34;
     box-shadow: 0 0 #0000 ,0 0 #0000,0 0 #0000 ,0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04);
 }
@@ -20,7 +17,7 @@
     border-top: 1px solid #88888877;
 }
 .main-content__address li{
-    padding: 8px 0;
+    padding: 5px 0;
 }
 .main-content__address span{
     display: inline-block;
@@ -36,3 +33,6 @@
 .main-content__address ul :nth-child(3) a{
     border: none;
 }
+/* .main-content__address ul li:first-child span{
+    display: none;
+} */

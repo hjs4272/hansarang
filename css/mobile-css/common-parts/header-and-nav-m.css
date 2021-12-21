@@ -1,24 +1,29 @@
-.Swiper-wrap{
-    display: none;
-}
-
-nav{
-    display: none;
-}
-img{
-    width: 100%;
-}
+/* 공통헤더, 첫번째 헤더색 */
 header{
     position: relative;
-    height: 180px;
-    /* background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% ); */
-    /* background: linear-gradient(to bottom, #6441a5, #2a0845); */
-    /* background: linear-gradient(to bottom, #ad5389, #3c1053); */
+    height: 150px;
     background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-    
 }
 
-
+/* 두번째부터 */
+.main-bgcolor--blue{
+    background: linear-gradient(to right, #1488cc, #2b32b2);
+}
+.main-bgcolor--limegreen{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+}
+.main-bgcolor--coral{
+    background: linear-gradient(to bottom, #ff9966, #ff5e62);
+}
+.main-bgcolor--insta{
+    background: linear-gradient(to right, #ff00cc, #333399);
+}
+.main-bgcolor--black{
+    background: linear-gradient(to top, #000000, #434343);
+}
+.main-bgcolor--MoonPurple{
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
 
 
 
@@ -38,7 +43,7 @@ header{
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 60px;
+    height: 50px;
     transform: rotateY(180deg);
 }
 

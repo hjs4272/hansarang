@@ -2,20 +2,21 @@
 .mobile-hamberger-leftMenu {  
     width: 0px;        /* 초기엔 화면에서 숨기기 위해 */    
     height: 100%;
-    color: #111;
-    background-color: #efefef; 
+    color: rgba(255, 255, 255, 0.904);
+    background: hsl(0 0% 1% / 0.8);
+    backdrop-filter: blur(4px);
     position: fixed;    /* 화면 상 다른 레이어로 위치시키게 함 */
     top: 0;
     left: 0;
     z-index: 5;
     overflow-x: hidden;     /* 가로방향은 메뉴가 넘치지 않게 보임 */   
-    transition: width 0.5s;
+    transition: width 0.7s;
 }
 .showLeftMenu {
-    width: 75%;
+    width: 80%;
 }
 
-/* 메뉴상단 X버튼 */
+/* 왼쪽메뉴상단 X버튼 */
 .mobile-hamberger-leftMenu__xbtn{
     display: flex;
     justify-content: flex-end;
@@ -23,14 +24,16 @@
 }
 .mobile-hamberger-leftMenu__xbtn i{
     cursor: pointer;
+    font-size: 22px;
+    padding: 15px;
 }
 
-/* 메뉴상단 로고 */
+/* 왼쪽메뉴상단 로고 */
 .mobile-hamberger-leftMenu__logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid rgba(17, 17, 17, 0.308);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.274);
     padding-bottom: 20px;
 }
 .mobile-hamberger-leftMenu__logo img{
@@ -49,5 +52,51 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid rgba(17, 17, 17, 0.308);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.308);
+}
+
+
+
+/* 오른쪽 햄버거 사이드 메뉴 */
+.mobile-dot-rightMenu {  
+    width: 0px;        /* 초기엔 화면에서 숨기기 위해 */    
+    height: 100%;
+    color: #111;
+    background: hsl(0 0% 100% / 0.8);
+    backdrop-filter: blur(5px);
+    position: fixed;    /* 화면 상 다른 레이어로 위치시키게 함 */
+    top: 0;
+    right: 0;
+    z-index: 5;
+    overflow-x: hidden;     /* 가로방향은 메뉴가 넘치지 않게 보임 */   
+    transition: width 0.5s;
+}
+.showRightMenu {
+    width: 50%;
+}
+
+.mobile-dot-rightMenu__xbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: rgb(46, 204, 188);
+    color: #fff;
+} 
+
+.mobile-dot-rightMenu__xbtn i{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+}
+.mobile-dot-rightMenu__title{
+    font-size: 14px;
+    font-family: 'Eulyoo1945-SemiBold';
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
 }

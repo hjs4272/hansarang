@@ -1,8 +1,8 @@
 
 .mobile-main-logo{
-    padding-top: 20px;
+    padding: 20px 15px 0 15px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     color: #efefef;
 }
 .mobile-main-logo a{
@@ -12,18 +12,19 @@
 }
 .mobile-main-logo img{
     width: 12%;
+    padding-right: 3px;
 }
 .mobile-main-logo span{
     font-family: 'WandohopeB';
-    font-size: 24px;
+    font-size: 26px;
 }
 
 
 .mobile-main-logo i {
-    position: absolute;
-    left: 20px;
-    font-size: 22px;
+    font-size: 20px;
     color: #efefef;
+    padding: 10px;
 }
+
 
 

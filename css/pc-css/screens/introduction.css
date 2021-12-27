@@ -5,6 +5,7 @@
     min-width: 665px;
     font-size: 18px;
     line-height: 30px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     padding: 15px;
@@ -19,12 +20,19 @@
 .main-content__address ul :nth-child(4){
     border-top: 1px solid #88888877;
 }
+
+.main-content__address ul li{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
 .main-content__address li{
     padding: 8px 0;
 }
 .main-content__address span{
     display: inline-block;
-    width: 100px;
+    width: 150px;
     margin-right: 50px;
     font-family: 'Eulyoo1945-SemiBold';
 }
@@ -36,3 +44,4 @@
 .main-content__address ul :nth-child(3) a{
     border: none;
 }
+

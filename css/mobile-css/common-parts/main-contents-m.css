@@ -16,14 +16,16 @@
 
   .main-subtitle--coral {background-image: linear-gradient(to right, #FF5F6D 0%, #FFC371  51%, #FF5F6D  100%)}
 
-  .main-subtitle--insta {background-image: linear-gradient(to right, #fc00ff 0%, #00dadee8  51%, #fc00ff  100%)}
+  .main-subtitle--insta {background-image: linear-gradient(to right, #fc00ff 0%, #7a00dee8  51%, #fc00ff  100%)}
 
   .main-subtitle--black {background-image: linear-gradient(to right, #232526 0%, #736c79  51%, #232526  100%)}
 
   .main-subtitle--MoonPurple {background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%)}
   
   
-
+  .main-subtitle:hover {
+    background-position: right center;
+  }
 
 
 

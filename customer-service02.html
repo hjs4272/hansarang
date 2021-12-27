@@ -45,6 +45,29 @@
     </div>
 
 
+    <!-- 오른쪽 위치 사이드 쇼 메뉴 -->
+    <div id="rightMenu" class="mobile-dot-rightMenu">
+        
+      <div class="mobile-dot-rightMenu__xbtn">
+        <i class="fas fa-times" onclick="closeNav2();"></i>
+        <div>MY MENU</div>
+      </div>
+      <a href="index.html">
+        <div class="mobile-dot-rightMenu__title">
+        홈</div>
+      </a>
+      <a href="customer-service01.html">
+      <div class="mobile-dot-rightMenu__title">
+        로그인</div>
+      </a>
+      <a href="customer-service02.html">
+      <div class="mobile-dot-rightMenu__title">
+        상담문의</div>
+      </a>
+
+    </div>    
+
+
 
 
 
@@ -82,6 +105,7 @@
         <img src="images/로고.png" alt="">
         <span>한사랑법무사 사무소</span>
       </a>
+      <a href="#"><i class="fas fa-ellipsis-h" onclick="openNav2();"></i>
     </div>
 
     <nav>
@@ -291,7 +315,7 @@
     <label>사건구분</label><i class="tomato-circle"></i>
   </div>
   <div class="counsel-classification__box">
-      <select class="counsel-classification__box__select" autocomplete="off">
+      <select class="counsel-classification__box__select" >
         <option>(선택)</option>
         <option>개인회생</option>
         <option>개인파산</option>
@@ -301,23 +325,24 @@
         <option>민사</option>
         <option>기타</option>
       </select>
+  </div>
 
-      <div class="counsel-contents">
-        <label for="form-contents">상담내용</label><i class="tomato-circle"></i>
-      </div>
-      <textarea id="form-contents" class="counsel-contents__box"></textarea>
+  <div class="counsel-contents">
+    <label for="form-contents">상담내용</label><i class="tomato-circle"></i>
+   </div>
+   <textarea id="form-contents" class="counsel-contents__box"></textarea>
 
-      <div class="counsel-file">
-        <label for="form-file">첨부파일</label>
-      </div>
-      <input id="form-file"type="file" style="display: none;">
-      <div class="counsel-file__box" >
-        <i class="fas fa-file-upload"></i>
-        <label for="form-file" style="cursor: pointer;">파일 올리기</label>
-      </div>
+   <div class="counsel-file">
+    <label for="form-file">첨부파일</label>
+   </div>
+   <input id="form-file"type="file" style="display: none;">
+   <div class="counsel-file__box" >
+    <i class="fas fa-file-upload"></i>
+     <label for="form-file" style="cursor: pointer;">파일 올리기</label>
+   </div>
 
-      <input id="form-submit" class="counsel-submit" type="submit" style="display: none;">
-      <label id="form-submit--alert" class="counsel-submit__box" for="form-submit">상담신청</label>
+   <input id="form-submit" class="counsel-submit" type="submit" style="display: none;">
+   <label id="form-submit--alert" class="counsel-submit__box" for="form-submit">상담신청</label>
 </main>
 
 

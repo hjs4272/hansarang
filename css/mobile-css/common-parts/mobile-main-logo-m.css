@@ -1,6 +1,6 @@
 
 .mobile-main-logo{
-    padding: 20px 15px 0 15px;
+    padding: 20px 10px 0 10px;
     display: flex;
     justify-content: space-between;
     color: #efefef;
@@ -11,7 +11,7 @@
     align-items: center;
 }
 .mobile-main-logo img{
-    width: 12%;
+    width: 13%;
     padding-right: 3px;
 }
 .mobile-main-logo span{
@@ -21,7 +21,7 @@
 
 
 .mobile-main-logo i {
-    font-size: 20px;
+    font-size: 24px;
     color: #efefef;
     padding: 10px;
 }

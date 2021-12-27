@@ -10,7 +10,7 @@
     left: 0;
     z-index: 5;
     overflow-x: hidden;     /* 가로방향은 메뉴가 넘치지 않게 보임 */   
-    transition: width 0.7s;
+    transition: width 0.5s;
 }
 .showLeftMenu {
     width: 80%;

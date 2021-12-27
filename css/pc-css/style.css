@@ -11,8 +11,8 @@
 /* screens */
 @import url(screens/background-video.css);
 @import url(screens/introduction.css);
-@import url(screens/customer-service.css);
-@import url(screens/counsel.css);
+@import url(screens/myhome-loginform.css);
+@import url(screens/myhome-counsel.css);
 
 
 

@@ -11,6 +11,8 @@
 /* screens */
 @import url(screens/background-video-m.css);
 @import url(screens/introduction-m.css);
+@import url(screens/myhome-counsel-m.css);
+@import url(screens/myhome-loginform-m.css);
 
 
 /* 폰트링크 */

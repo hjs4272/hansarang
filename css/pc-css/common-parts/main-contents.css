@@ -8,8 +8,8 @@ main{
 }
 /* .main-subtitle {
     background: linear-gradient(90deg, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100% );
-}
- */
+} */
+
 
  /* 메인 소제목 */
   .main-subtitle {background-image: linear-gradient(to right, #5C258D 0%, #4389A2  51%, #5C258D  100%);}
@@ -20,7 +20,7 @@ main{
 
   .main-subtitle--coral {background-image: linear-gradient(to right, #FF5F6D 0%, #FFC371  51%, #FF5F6D  100%)}
 
-  .main-subtitle--insta {background-image: linear-gradient(to right, #fc00ff 0%, #00dadee8  51%, #fc00ff  100%)}
+  .main-subtitle--insta {background-image: linear-gradient(to right, #fc00ff 0%, #7a00dee8  51%, #fc00ff  100%)}
 
   .main-subtitle--black {background-image: linear-gradient(to right, #232526 0%, #736c79  51%, #232526  100%)}
 
@@ -148,7 +148,8 @@ main{
 }
 .main-pageMove--coral p{
     margin-left: 30px;
-    padding: 10px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 .main-pageMove--coral p:hover{
     background-color: #FF7263;

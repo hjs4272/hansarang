@@ -5,55 +5,49 @@
 @import url(common-parts/main-contents-m.css);
 @import url(common-parts/footer-m.css);
 
-
-
-
 /* screens */
 @import url(screens/background-video-m.css);
 @import url(screens/introduction-m.css);
 @import url(screens/myhome-counsel-m.css);
 @import url(screens/myhome-loginform-m.css);
 
-
 /* 폰트링크 */
 @font-face {
-    font-family: 'WandohopeB';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeB.woff') format('woff');
+  font-family: "WandohopeB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeB.woff")
+    format("woff");
 }
 @font-face {
-    font-family: 'Eulyoo1945-SemiBold';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+  font-family: "Eulyoo1945-SemiBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff")
+    format("woff");
 }
 @font-face {
-    font-family: 'Eulyoo1945-Regular';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-Regular.woff') format('woff');
+  font-family: "Eulyoo1945-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-Regular.woff")
+    format("woff");
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    color: #111;
-    font-family: 'Eulyoo1945-Regular';
-    height: 100%;
+body {
+  color: #111;
+  font-family: "Eulyoo1945-Regular";
+  height: 100%;
 }
-
 
 /* pc버젼에선 나와야하나 모바일에서 지워야할것들 */
-.main-logo{
-    display: none;
+.main-logo {
+  display: none;
 }
-.Swiper-wrap{
-    display: none;
+.Swiper-wrap {
+  display: none;
 }
-nav{
-    display: none;
+nav {
+  display: none;
 }
-.customer-service{
-    display: none;
+.myhome-service {
+  display: none;
 }
-
-
-
-
-
-
-

@@ -1,104 +1,104 @@
 /* 공통헤더, 첫번째 헤더색 */
-header{
-    position: relative;
-    height: 500px;
-    /* background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% ); */
-    /* background: linear-gradient(to bottom, #6441a5, #2a0845); */
-    /* background: linear-gradient(to bottom, #ad5389, #3c1053); */
-    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-    
+header {
+  position: relative;
+  height: 500px;
+  /* background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% ); */
+  /* background: linear-gradient(to bottom, #6441a5, #2a0845); */
+  /* background: linear-gradient(to bottom, #ad5389, #3c1053); */
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
 /* 상단 헤더 고객서비스 부분 */
-.customer-service{
-    display: flex;
-    position: absolute;
-    right: 200px;
-    color: #efefefe3;
-    padding-top: 30px;
-    font-size: 14px;
+.myhome-service {
+  display: flex;
+  position: absolute;
+  right: 200px;
+  color: #efefefe3;
+  padding-top: 30px;
+  font-size: 14px;
 }
-.customer-service p {
-    text-align: center;
-    width: 80px;
+.myhome-service p {
+  text-align: center;
+  width: 80px;
 }
-.customer-service a:nth-child(2) p{
-    border-left: 1px solid #efefefd0;
-    border-right: 1px solid #efefefd0;
+.myhome-service a:nth-child(2) p {
+  border-left: 1px solid #efefefd0;
+  border-right: 1px solid #efefefd0;
 }
 
 /* 헤더 배경색 */
-.main-bgcolor--blue{
-    /* background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%); */
-    background: linear-gradient(to right, #1488cc, #2b32b2);
+.main-bgcolor--blue {
+  /* background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%); */
+  background: linear-gradient(to right, #1488cc, #2b32b2);
 }
-.main-bgcolor--limegreen{
-    /* background: linear-gradient(to right, #11998e, #38ef7d); */
-    /* background: linear-gradient(to right, #00b09b, #96c93d); */
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
-    /* background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); */
-    /* background: linear-gradient(to top, #093028, #237a57); */
+.main-bgcolor--limegreen {
+  /* background: linear-gradient(to right, #11998e, #38ef7d); */
+  /* background: linear-gradient(to right, #00b09b, #96c93d); */
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(12, 116, 117, 1) 90%
+  );
+  /* background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); */
+  /* background: linear-gradient(to top, #093028, #237a57); */
 }
-.main-bgcolor--coral{
-    /* background: linear-gradient(to left, #f12711, #f5af19); */
-    background: linear-gradient(to bottom, #ff9966, #ff5e62);
+.main-bgcolor--coral {
+  /* background: linear-gradient(to left, #f12711, #f5af19); */
+  background: linear-gradient(to bottom, #ff9966, #ff5e62);
 }
-.main-bgcolor--insta{
-    /* background: linear-gradient(to right, #c33764, #1d2671); */
-    background: linear-gradient(to right, #ff00cc, #333399);
-    /* background: linear-gradient(to right, #7b4397, #dc2430); */
-    /* background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); */
-    /* background: linear-gradient(to left, #c04848, #480048); */
-    /* background: linear-gradient(90deg, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100% ); */
-    /* background: linear-gradient(to left, #dc2424, #4a569d); */
+.main-bgcolor--insta {
+  /* background: linear-gradient(to right, #c33764, #1d2671); */
+  background: linear-gradient(to right, #ff00cc, #333399);
+  /* background: linear-gradient(to right, #7b4397, #dc2430); */
+  /* background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); */
+  /* background: linear-gradient(to left, #c04848, #480048); */
+  /* background: linear-gradient(90deg, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100% ); */
+  /* background: linear-gradient(to left, #dc2424, #4a569d); */
 }
-.main-bgcolor--black{
-    background: linear-gradient(to top, #000000, #434343);
+.main-bgcolor--black {
+  background: linear-gradient(to top, #000000, #434343);
 }
-.main-bgcolor--MoonPurple{
-    background: linear-gradient(to right, #4e54c8, #8f94fb);
+.main-bgcolor--MoonPurple {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
 }
-
 
 /* 네비게이션 메뉴바 */
-nav{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
-.navigation{
-    color: #efefef;
-    font-size: 20px;
-    font-family: 'Eulyoo1945-SemiBold';
-    margin-left: 80px;
-    transition: .5s;
+.navigation {
+  color: #efefef;
+  font-size: 20px;
+  font-family: "Eulyoo1945-SemiBold";
+  margin-left: 80px;
+  transition: 0.5s;
 }
-.navigation:hover{
-    transition: .5s;
-    transform: translateY(-10px);
+.navigation:hover {
+  transition: 0.5s;
+  transform: translateY(-10px);
 }
-
-
 
 /* 테두리 물결무늬 효과 */
 .물결효과 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .물결효과 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 188px;
-    transform: rotateY(180deg);
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 188px;
+  transform: rotateY(180deg);
 }
 
 .물결효과 .shape-fill {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }

@@ -1,31 +1,30 @@
-.최소너비450px{
-    min-width: 450px;
+.최소너비450px {
+  min-width: 450px;
 }
-.최소너비500px{
-    min-width: 500px;
+.최소너비500px {
+  min-width: 500px;
 }
-.최소너비550px{
-    min-width: 550px;
+.최소너비550px {
+  min-width: 550px;
 }
-.최소너비600px{
-    min-width: 600px;
+.최소너비600px {
+  min-width: 600px;
 }
-.최소너비650px{
-    min-width: 650px;
+.최소너비650px {
+  min-width: 650px;
 }
-.최소너비750px{
-    min-width: 750px;
+.최소너비750px {
+  min-width: 750px;
 }
-.최소너비800px{
-    min-width: 800px;
+.최소너비800px {
+  min-width: 800px;
 }
 
-
-.최대너비500px{
-    max-width: 500px;
+.최대너비500px {
+  max-width: 500px;
 }
 
 /* 이미지 높이 */
-.main-content .높이--300px{
-    height: 300px;
+.main-content .높이--300px {
+  height: 300px;
 }

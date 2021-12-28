@@ -1,52 +1,53 @@
 /* 공통헤더, 첫번째 헤더색 */
-header{
-    position: relative;
-    height: 150px;
-    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+header {
+  position: relative;
+  height: 150px;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
 /* 두번째부터 */
-.main-bgcolor--blue{
-    background: linear-gradient(to right, #1488cc, #2b32b2);
+.main-bgcolor--blue {
+  background: linear-gradient(to right, #1488cc, #2b32b2);
 }
-.main-bgcolor--limegreen{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+.main-bgcolor--limegreen {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(12, 116, 117, 1) 90%
+  );
 }
-.main-bgcolor--coral{
-    background: linear-gradient(to bottom, #ff9966, #ff5e62);
+.main-bgcolor--coral {
+  background: linear-gradient(to bottom, #ff9966, #ff5e62);
 }
-.main-bgcolor--insta{
-    background: linear-gradient(to right, #ff00cc, #333399);
+.main-bgcolor--insta {
+  background: linear-gradient(to right, #ff00cc, #333399);
 }
-.main-bgcolor--black{
-    background: linear-gradient(to top, #000000, #434343);
+.main-bgcolor--black {
+  background: linear-gradient(to top, #000000, #434343);
 }
-.main-bgcolor--MoonPurple{
-    background: linear-gradient(to right, #4e54c8, #8f94fb);
+.main-bgcolor--MoonPurple {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
 }
-
-
-
 
 /* 테두리 물결무늬 효과 */
 .물결효과 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .물결효과 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 50px;
-    transform: rotateY(180deg);
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+  transform: rotateY(180deg);
 }
 
 .물결효과 .shape-fill {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }
